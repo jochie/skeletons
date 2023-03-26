@@ -59,4 +59,5 @@ def main():
     results = ec2.describe_instances()
     print(json.dumps(results, sort_keys=True, indent=4, default=datetime_encoder))
 
-main()
+if __name__ == "__main__":
+    main()

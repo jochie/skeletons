@@ -32,4 +32,5 @@ def main():
     print(f"DRYRUN  = {opts.dryrun}")
     print(f"VERBOSE = {opts.verbose}")
 
-main()
+if __name__ == "__main__":
+    main()
